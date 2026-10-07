@@ -1,7 +1,7 @@
 import moment from 'moment-timezone';
 import pkg from '@whiskeysockets/baileys';
 const { proto } = pkg;
-import config from '../../config.cjs';
+import config from '../config.cjs';
 import os from 'os';
 
 const aboutCommand = async (m, sock) => {
