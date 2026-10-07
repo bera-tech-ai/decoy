@@ -4,7 +4,7 @@ import fs from 'fs';
 
 import path from 'path';
 
-import config from '../../config.cjs';
+import config from '../config.cjs';
 
 // Load .env variables
 
