@@ -1,6 +1,6 @@
 // Sarkar-MD
 import axios from 'axios';
-import config from '../../config.cjs';
+import config from '../config.cjs';
 
 const screenshotCommand = async (m, gss) => {
   const prefix = config.PREFIX;
