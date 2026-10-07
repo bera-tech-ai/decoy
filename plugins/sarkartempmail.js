@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-import config from "../../config.cjs";
+import config from "../config.cjs";
 
 const tempmail = async (m, gss) => {
 
