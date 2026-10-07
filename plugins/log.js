@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import config from '../../config.cjs';
+import config from '../config.cjs';
 
 const LogoCmd = async (message, bot) => {
   const prefix = config.PREFIX;
