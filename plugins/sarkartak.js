@@ -1,5 +1,5 @@
 import fs from 'fs/promises';
-import config from '../../config.cjs';
+import config from '../config.cjs';
 
 const handleTakeCommand = async (m, gss) => {
   const prefix = config.PREFIX;
