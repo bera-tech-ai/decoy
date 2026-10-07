@@ -4,7 +4,7 @@ import fs from 'fs';
 import os from 'os';
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
-import config from '../../config.cjs';
+import config from '../config.cjs';
 
 const alive = async (m, sock) => {
   const prefix = config.PREFIX;
