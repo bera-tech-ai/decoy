@@ -2,7 +2,7 @@
 import { promises as _0x217571 } from 'fs';
 import _0x42a47d from 'path';
 import _0x44bfe2 from 'node-fetch';
-import _0xc11ef3 from '../../config.cjs';
+import _0xc11ef3 from '../config.cjs';
 const __filename = new URL(import.meta.url).pathname;
 const __dirname = _0x42a47d.dirname(__filename);
 const chatHistoryFile = _0x42a47d.resolve(__dirname, "../gpt_history.json");
