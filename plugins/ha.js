@@ -10,7 +10,7 @@
 
 
 
-import config from "../../config.cjs";
+import config from "../config.cjs";
 
 const hackingPrank = async (m, sock) => {
   const prefix = config.PREFIX;
