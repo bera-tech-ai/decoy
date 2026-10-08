@@ -1,4 +1,4 @@
-import config from "../../config.cjs";
+import config from "../config.cjs";
 
 const groupControl = async (message, sock) => {
     const prefix = config.PREFIX;
